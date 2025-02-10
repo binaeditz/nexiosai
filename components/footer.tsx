@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
           className="text-muted-foreground/50"
         >
           <Link href="https://threads.net/binaradenuwan" target="_blank">
-            <SiTHreads size={18} />
+            <SiThreads size={18} />
           </Link>
         </Button>
         <Button
