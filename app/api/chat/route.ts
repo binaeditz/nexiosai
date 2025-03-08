@@ -3,7 +3,7 @@ import { createToolCallingStreamResponse } from '@/lib/streaming/create-tool-cal
 import { isProviderEnabled, isToolCallSupported } from '@/lib/utils/registry'
 import { cookies } from 'next/headers'
 
-export const maxDuration = 300
+export const maxDuration = 59
 
 const DEFAULT_MODEL = 'google:gemini-2.0-pro-exp-02-05'
 
